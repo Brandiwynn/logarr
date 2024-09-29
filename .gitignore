@@ -1,0 +1,44 @@
+# Exclude by Extension
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.db.bak
+**/*.ldb
+**/*.mmdb
+**/*.pid
+
+# Exclude Keys and Certificates
+**/*.crt
+**/*.key
+**/*.pem
+
+# Exclude by Name
+**/puid
+**/pgid
+**/db.sqlite3*
+**/daily.cld
+**/main.cvd
+
+# Exclude by Folder
+**/*cache*/**
+**/history/**
+**/log/**
+**/logs/**
+**/MediaCover/**
+**/tmp/**
+**/Updates/**
+
+# Include by Extension
+!**/*.conf
+!**/*.json
+!**/*.xml
+!**/*.yml
+!**/*.yaml
+
+# Exclude Mapped Folders
+**/.dev/**
+**/.docs/**
+**/.host/**
+**/.media/**
+**/.mnt/**
+**/.pc/**
