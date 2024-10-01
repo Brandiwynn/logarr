@@ -6,6 +6,7 @@
 **/*.ldb
 **/*.mmdb
 **/*.pid
+**/*.lock
 
 # Exclude Keys and Certificates
 **/*.crt
